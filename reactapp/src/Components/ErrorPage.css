@@ -1,0 +1,39 @@
+.error-page-body {
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .error-box {
+    background-color: #f0f0f0; 
+    padding: 40px 30px;
+    text-align: center;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .error-text {
+    color: maroon;
+    font-weight: 600;
+  }
+  
+  .alert-img {
+    width: 100px;
+    height: auto;
+    margin: 0 auto;
+  }
+  .error-box h4{
+    margin-bottom:10px;
+    line-height:30px;
+  }
+  .error-box p{
+    margin-bottom:30px;
+  }
+  .alert-img{
+    margin-top:20;
+  }

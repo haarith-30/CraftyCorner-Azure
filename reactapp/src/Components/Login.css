@@ -1,0 +1,84 @@
+
+
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f8f9fa;
+  background-image: url("../assets/login-signup-img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+}
+
+.login-container {
+  width: 900px;
+  display: flex;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.login-left {
+  flex: 1;
+  background: linear-gradient(135deg, #640D5F, #8e44ad);
+  color: white;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-left h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.login-left p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  text-align:center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.login-form-section {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-heading {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #640D5F;
+}
+.crafty{
+  text-align:center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.login-btn {
+  background-color: #640D5F;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+  background-color: #8e44ad; 
+}
+
+.login-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px #8e44ad;
+}
+
+
+

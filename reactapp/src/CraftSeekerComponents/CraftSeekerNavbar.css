@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+.navbar.bg-dark {
+  background-color: #113f67 !important;
+  color: white;
+}
+
+.navbar .btn-outline-light {
+  background-color: #dfe9f2 !important;
+  color: black !important;
+  border: none !important;
+  padding: 4px 10px !important;
+  font-size: 13px !important;
+  border-radius: 4px;
+  height: 40px;
+  line-height: 1.2;
+  width: 100px;
+}
+
+.navbar .nav-link {
+  color: white !important;
+  font-size: 15px;
+}
+
+.navbar .nav-link:hover {
+  color: #e0e0e0 !important;
+}
+
+.custom-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1040;
+}
+
+.custom-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  width: 320px;
+  z-index: 1050;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.custom-modal-header h5 {
+  margin: 0;
+  font-weight: 600;
+}
+
+.custom-modal-body {
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.custom-modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.brand-name{
+  font-family: "Lobster", sans-serif;
+  font-size: 1.9rem;
+}

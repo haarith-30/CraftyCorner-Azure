@@ -1,0 +1,49 @@
+.viewcraft-container 
+{
+  min-height: 100vh;
+  background-image: url("../assets/Craftmaster-viewcraft.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 20px;
+  padding:20px;
+}
+
+.craft-box 
+{
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 0 10px rgb(42, 4, 4);
+  width: 100%;
+  max-width: 1200px;
+  margin: -120px auto 0 auto; 
+}
+
+
+.table-responsive 
+{
+  width: 100%;
+  overflow-x: auto;
+}
+
+table 
+{
+  width: 100% !important;
+  table-layout: auto;
+}
+
+.craft-img 
+{
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+table th,
+table td
+ {
+  vertical-align: middle !important;
+  text-align: center;
+}

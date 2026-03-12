@@ -1,0 +1,85 @@
+.signup-container 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../assets/login-signup-img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+.signup-card 
+{ 
+  background: linear-gradient(135deg, #640D5F, #8e44ad);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+}
+
+.signup-form 
+{
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.signup-form label 
+{
+  font-weight: 600;
+  margin-bottom: 4px;
+  display: block;
+}
+
+.signup-form input,
+.signup-form select
+ {
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.signup-form select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg fill='%23444' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 16px 16px;
+  padding-right: 30px;
+}
+
+
+.signup-form .error-message 
+{
+  color: red;
+  font-size: 0.85rem;
+  margin-bottom: 10px;
+  margin-top: -2px;
+}
+
+.required-star
+ {
+  color: red;
+  margin-left: 2px;
+}
+.signup-form .btn-primary
+ {
+  background-color: #640D5F; 
+  border: none;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.signup-form .btn-primary:hover 
+{
+  background-color: #8e44ad; 
+}
+
